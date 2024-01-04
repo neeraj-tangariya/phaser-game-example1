@@ -100,11 +100,6 @@ function create() {
     fill: "#000",
   });
 
-  this.add.text(440, 16, "Creator: Neeraj", {
-    fontSize: "32px",
-    fill: "#000",
-  });
-
   // Collide the player and the stars with the platforms
   this.physics.add.collider(player, platforms);
   this.physics.add.collider(stars, platforms);
